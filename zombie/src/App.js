@@ -1,23 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.scss"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+        <h1 className="app__title">Zombie <br></br> Survival<br></br> Guide<br></br></h1>
+        <iframe className="app__gif" src="https://giphy.com/embed/y1ewxG8aFWk0M" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/zombie-y1ewxG8aFWk0M"></a></p>
     </div>
   );
 }
